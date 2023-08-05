@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./estilos/estilos.css"> -->
+    <link rel="stylesheet" href="./estilos/estilos1.css">
+    <!-- <link rel="stylesheet" href="./estilos/estilos2.css"> -->
+    <title>Contacto Gimnasio</title>
+</head>
+<body>
+    <header>
+        <h1> Vení al Gym! 💪🏼</h1>
+    </header>
+    <main>
+        <form action="https://postman-echo.com/post" method="post" target="_blank">
+            <section>
+                <fieldset class="recuadro">
+                    <legend>
+                        🙋 Datos Personales 👀
+                    </legend>
+                    <div>
+                        <label for="nombre">Nombre: *
+                        <input class="datos1" type="text" name="nombre" id="nombre" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido: *
+                        <input class="datos1" type="text" name="apellido" id="apellido" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="documento">Documento: *
+                        <input class="datos1" type="number" name="dni" id="documento" required min="1">
+                        </label>
+                    </div>
+                    <div>
+                        <label id="nacionalidad">Nacionalidad: * <br>
+                        <select class="datos1 opciones" id="nacionalidad" name="nacionalidad">
+                            <option value="seleccionar" selected>-Seleccionar-</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brasil">Brasilera</option>
+                            <option value="Uruguay">Uruguaya</option>
+                            <option value="Otros">Otro Pais</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div class="b1">
+                        <label>Contanos un poco de vos...
+
+                        <textarea class="datos1" name="comentarios" id="comentarios" cols="20" rows="8"></textarea>
+                        </label>
+                    </div>
+                    <br>
+                    <div class="b1">
+                        <label class="label1 datos">Sexo:*</label><br>
+                        <label class="datos" for="sexo1"><input class="datos" id="sexo1" type="radio" name="genero" value="femenino"> Femenino</label>
+                        <label class="datos" for="sexo2"><input class="datos" id="sexo2" type="radio" name="genero" value="masculino"> Masculino</label>
+                        <label class="datos" for="sexo3"><input class="datos" id="sexo3" type="radio" name="genero" value="otro"> Otro</label>
+                    </div>
+                </fieldset >
+                <p class="separador">
+
+                </p>
+                <fieldset class="recuadro">
+                    <legend>📱 Datos de Contacto 📧</legend>
+                        <div>
+                            <label for="telefono">Teléfono:
+                            <input class="datos1 contacto" id="telefono" type="tel" name="telefono" min="11000000" placeholder="Código de área y número">
+                            </label>
+                        </div>
+                        <div>
+                            <label for="email">Dirección de correo electrónico:*
+                            <input class="datos1 contacto" id="email" type="email" name="email" required placeholder="Ej:mail@gmail.com">
+                            </label>
+                        </div>
+                </fieldset >
+                <p class="separador">
+
+                </p>
+                <fieldset class="recuadro">
+                    <legend>🚴 Actividades 🤸🏽</legend>
+                    <p>
+                        Por favor indicá cuáles actividades te interesan.
+                    </p>
+                    <h4>
+                        Sede Palermo:
+                    </h4>
+                    <div>
+                        <label class="datos"><input type="checkbox" class="datos" name="Basquet" value="Si" >Basquet</label>
+                        <label class="datos"><input type="checkbox" class="datos" name="Boxeo" value="Si"> Boxeo</label>
+                        <label class="datos"><input type="checkbox" class="datos" name="Futbol" value="Si"> Fútbol</label>
+                        <label class="datos"><input type="checkbox" class="datos" name="Tenis" value="Si"> Tenis</label>
+                    </div>
+                    <h4>
+                        Sede Rosario:
+                    </h4>
+                    <div>
+                        <label class="datos"><input type="checkbox" class="datos" name="Básquet" value="Si" >Básquet</label>
+                        <label class="datos"><input type="checkbox" class="datos" name="Futbol" value="Si"> Fútbol</label>
+                        <label class="datos"><input type="checkbox" class="datos" name="Rugby" value="Si"> Rugby</label>
+                        <label class="datos"><input type="checkbox" class="datos" name="Voley" value="Si"> Voley</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <label class="condic"><input class="datos" type="checkbox" name="condiciones" value="Si" >Acepto las condiciones*</label>
+                    <label class="condic"><input class="datos" type="checkbox" name="novedades" value="Si" checked> Deseo recibir novedades</label>
+                </div>
+                <p class="condic">
+                    *: campo obligatorio
+                </p>
+
+                <div class="b1">
+                    <input class="boton" type="submit" value="Iniciar afiliación">
+                    <input class="boton" type="reset" value="Restablecer" name="reset">
+                </div>
+
+            </section>
+        </form>
+    </main>
+
+</body>
+</html>

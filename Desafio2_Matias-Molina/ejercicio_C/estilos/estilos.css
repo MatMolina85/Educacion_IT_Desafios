@@ -1,0 +1,45 @@
+.logo {
+    text-align: center;
+}
+
+#disney {
+    width: 30%;
+}
+
+div img {
+    width: 350px;
+}
+
+.titulo {
+    color: #C05497;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    letter-spacing: 8px;
+    font-weight: 100;
+}
+.subtitulo {
+    color: #BB5397;
+    font-family: 'Lucida Sans Regular';
+    letter-spacing: 5px;
+}
+.texto {
+    color: #3F65BB;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 8.88px;
+    font-weight: 500;
+}
+#pop {
+    float: right;
+    margin-left: 10px;
+}
+#caribbean {
+    float: left;
+    margin-right: 10px;
+}
+#animal {
+    float: right;
+    margin-left: 10px;
+}
+#mickey {
+    width: 100%;
+}

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Rubik+Dirt&display=swap');
+
+body {
+        margin: 0 auto;
+        background-color: lightseagreen;
+        width: 60%;
+}
+header {
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Caprasimo',cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    border: 25px groove #4B0082;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+h1 {
+    margin: 0 auto;
+    color:rgba(210,105,30, 0.9);
+    text-shadow:2px 4px 10px red;
+    margin-bottom: 4px;
+
+}
+
+legend {
+    font-family:'Rubik Dirt', cursive;
+    background-color: #4E6E63;
+    border-radius: 5px;
+    padding: 10px;
+    font-variant: small-caps;
+    color: rgb(75,0,130);
+    font-size: 16px;
+}
+
+fieldset {
+    font-family:'Roboto', sans-serif;
+    border:2px solid #56796E;
+    border-radius: 310px;
+    background-color: #D6E2DE;
+}
+
+
+
+input:focus{
+    background-color: lightseagreen;
+    color:rgba(161, 11, 6, 0.9);
+    text-shadow:2px 4px 10px rgb(236, 148, 70);
+
+}
+fieldset:focus-within{
+    background-color: #A6C1B9;
+    box-shadow: 4px 2px 4px #4B0082;
+    background-image:url(../img/foto1_pequena.png);
+    background-position:top;
+    background-size:100% auto;
+    background-repeat: repeat-y;
+}
+
+.recuadro {
+    text-align: center;
+}
+
+.recuadro:focus-within >legend {
+    background-color:#2A3D37;
+    color: white;
+}
+
+textarea:focus {
+    background-color: lightseagreen;
+    color:rgba(161, 11, 6, 0.9);
+    text-shadow:2px 4px 10px rgb(236, 148, 70);
+}
+
+textarea {
+    resize:vertical;
+    color:rgba(161, 11, 6, 0.9);
+    text-shadow:2px 4px 10px rgb(236, 148, 70);
+    font-weight: bold;
+}
+
+label, input, span {
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    /* margin-bottom: 8px; */
+}
+
+input {
+    color:rgba(161, 11, 6, 0.9);
+    text-shadow:2px 4px 10px rgb(236, 148, 70);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 18px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4B0082;
+}
+
+.label1 {
+    padding-top: 0px;
+
+}
+.datos1 {
+    width: 75%;
+    padding: 8px 0;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color:rgba(161, 11, 6, 0.9);
+    text-shadow:2px 4px 10px rgb(236, 148, 70);
+    font-size: 16px;
+}
+
+.opciones {
+    padding: 5px 0px;
+    font-family: 'Roboto',sans-serif;
+    text-align: start;
+}
+select {
+    margin: 0 auto;
+    ;
+}
+
+
+
+.b1 {
+    text-align: center;
+}
+div {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.datos {
+    display: inline;
+    padding-right: 4px ;
+    text-align: center;
+}
+
+.contacto {
+    color:rgba(161, 11, 6, 0.9);
+    text-shadow:2px 4px 10px rgb(236, 148, 70);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+
+.condic {
+    color: #4B0082;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:10px 0;
+    text-align: center;
+}
+
+.boton  {
+    padding: 10px;
+    display: inline;
+    background-color: #4B0082;
+    border: 2px solid #4D6D63;
+    border-radius: 20px;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color:#D6E2DE ;
+    color: red;
+}
+
+.separador {
+    margin-top: 20px;
+    border-bottom: 20px double #4B0082;
+    margin: 0 auto;
+    color: #A4C5BC;
+    text-align: center;
+    padding-top: 40px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.separador:hover {
+    border-bottom: 20px solid black ;
+}
+
+p, h4 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+

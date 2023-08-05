@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Kalam:wght@300;400;700&display=swap');
+body {
+        margin: 0 auto;
+        background-color: #1F2024;
+        width: 60%;
+        background-image: url(../img/foto-gimnasio.png);
+        background-repeat: repeat-y;
+        background-size:contain ;
+}
+header {
+    margin: 0 auto;
+    text-align: left;
+    color: yellow;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    border-bottom: 2px solid white;
+    margin: 40px 0 ;
+}
+h1 {
+    margin: 0 auto;
+}
+
+legend {
+    font-family: 'Kalam', cursive;
+    padding: 10px;
+    font-weight: 300;
+    font-variant: small-caps;
+    color: white;
+    font-size: 2em;
+}
+
+input {
+    color: #191970;
+    font-weight: bold;
+}
+
+input:focus{
+    background-color: #191970;
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+fieldset:focus-within{
+    background-color: #191970;
+}
+
+.recuadro:focus-within >legend {
+    background-color:#2A3D37;
+}
+
+textarea:focus {
+    background-color: white;
+    color: #191970;
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea {
+    resize:vertical;
+    font-family: 'Kalam', cursive;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label, input, span {
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    /* margin-bottom: 8px; */
+}
+
+label {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+}
+
+.label1 {
+    text-align: start;
+    padding-top: 0px;
+
+}
+.datos1 {
+    width: 75%;
+    padding: 8px 0;
+    text-align: start;
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    color: #191970;
+    margin-left: 0;
+}
+
+.opciones {
+    padding: 5px 0px;
+    font-family: 'Roboto',sans-serif;
+    text-align: start;
+}
+select {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #191970;
+}
+
+.b1 {
+    text-align: center;
+}
+div {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.datos {
+    display: inline;
+    padding-right: 4px ;
+}
+
+.contacto {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+    text-align: start;
+    font-weight: bold;
+    font-size: 18px;
+}
+.condic {
+    color: yellow;
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    text-align: start;
+}
+.boton  {
+    padding: 10px;
+    display: inline;
+    background-color: #191970;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Kalam', cursive;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color:#D6E2DE ;
+    color: #191970;
+}
+
+.separador {
+    margin-top: 20px;
+    border-bottom: 20px groove yellow;
+    margin: 0 auto;
+    color: #A4C5BC;
+    text-align: center;
+    padding-top: 40px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.separador:hover {
+    border-bottom: 20px dashed yellow;
+
+}
+
+h4 , p {
+    font-family: 'Kalam', cursive;
+    color: white;
+}
+
+

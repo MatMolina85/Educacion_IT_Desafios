@@ -1,0 +1,93 @@
+body {
+    background-color: #273238;
+    color: #93A1B3;
+
+}
+
+.titulo {
+    color: #648594 ;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family:Impact, Charcoal, sans-serif;
+
+}
+.intro {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 11.5px;
+}
+.aspiradoras{
+    color: #EDCFBC;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: Arial, Gadget, sans-serif;
+
+}
+div img {
+    width: 350px;
+}
+#asp {
+
+    padding-left: 1px;
+    padding-top: 1px;
+    border: 5px solid #EDCFBC;
+    margin-left: 40px;
+
+}
+
+.celular {
+    color: #A1C1CB;
+    font-style: italic;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-weight: 900;
+
+}
+#cel {
+    padding-left: 1px;
+    padding-bottom: 1px;
+    border: 5px solid #A1C1CB;
+    margin-left: 40px;
+}
+.consola {
+    color: #BCBDBF;
+    font-style: italic;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-weight:900;
+}
+#console {
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-top:1px ;
+    border: 5px solid #BCBDBF;
+    margin-left: 40px;
+}
+.home {
+    color: #8D94A1;
+    font-style: italic;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-weight:900;
+}
+#theather {
+    padding-left: 1px;
+    padding-top:1px ;
+    border: 5px solid #8D94A1;
+    margin-left: 40px;
+}
+.tv {
+    color: #B2B2AA;
+    font-style: italic;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-weight:900;
+}
+#televisor {
+    padding-left: 1px;
+    padding-bottom:1px ;
+    border: 5px solid #B2B2AA;
+    margin-left: 40px;
+}

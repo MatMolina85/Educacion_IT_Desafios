@@ -1,0 +1,18 @@
+body {
+    background-color: #289688;
+    text-align: center;
+}
+
+.titulo {
+   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #FCEA3E;
+}
+div img {
+    height: 100px;
+}
+
+img {
+    border: 10px solid white;
+    margin: 5px;
+}
+
