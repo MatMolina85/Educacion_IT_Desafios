@@ -1,0 +1,13 @@
+button {
+    border-radius: 5px;
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    margin: 5px;
+}
+button:active {
+    background-color: red;
+    color: white;
+}
+
