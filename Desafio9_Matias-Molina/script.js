@@ -31,6 +31,7 @@ function ingresoNumero(numero) {
   if ( numeroActual.length < 13){
   numeroActual += numero;
   display.value = numeroActual;
+  display.style.color ="red";
   }
 }
 
@@ -56,9 +57,24 @@ function calculo() {
       result /= segundoNumero;
       break;
   }
+  if (result.toString().length > 13) {
+    if (result.toString().indexOf('.') !== -1) {
+      display.value = result.toFixed(1);
+      display.style.color ="black"
+      display.style.textDecoration = "underline"
+    } else {
+      display.value = result.toPrecision(4);
+      display.style.color ="black"
+      display.style.textDecoration = "underline"
+    }
+  } else {
   display.value = result.toFixed(2);
   numeroActual = String(result);
   operador = '';
+  display.style.color ="black"
+  display.style.textDecoration = "underline"
+  }
+
 }
 
 function borrarDisplay() {
@@ -66,4 +82,6 @@ function borrarDisplay() {
   numeroActual = '';
   operador = '';
   result = 0;
+  display.style.color = "red";
+  display.style.textDecoration = "none"
 }
