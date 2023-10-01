@@ -1,0 +1,63 @@
+main {
+    height:100%;
+    text-align: center;
+    background-color: pink;
+    padding-top: 22vh;
+    width: 100vw;
+
+}
+
+main .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+}
+
+section img {
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+section {
+    border: 1px dashed yellow;
+    width: 300px;
+    padding: 15px;
+    background-image: radial-gradient(circle at 35.06% 64.94%, #a2b1f0 0, #aeaeed 4.17%, #baabe9 8.33%, #c5a8e4 12.5%, #cfa5de 16.67%, #d8a2d7 20.83%, #dfa0d0 25%, #e69ec8 29.17%, #eb9dbf 33.33%, #ee9cb7 37.5%, #f19cae 41.67%, #f29ca5 45.83%, #f29d9d 50%, #f19e95 54.17%, #eea08e 58.33%, #eba387 62.5%, #e6a581 66.67%, #e1a87c 70.83%, #daab79 75%, #d3ae76 79.17%, #ccb175 83.33%, #c4b475 87.5%, #bbb676 91.67%, #b2b978 95.83%, #a8bb7c 100%);
+    color: white;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+section:hover{ 
+    transition: 2000ms;
+    transform: rotateY(360deg);
+}
+
+section h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Chocolate-box', sans-serif;
+    text-shadow: 2px -2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section-cards-header h1 {
+    color: white;
+    margin-bottom: 40px;
+    text-shadow: 2px -2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Chococookies', sans-serif;
+    font-size: 50px;
+}
+
+.cards-container section p {
+    margin-bottom: 10px;
+}
+
+.precio {
+    color: pink;
+}
+

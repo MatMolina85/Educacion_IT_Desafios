@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li> <a id="logo-principal" href="./index.html"><img id="logo" src="./imagenes/candy-logo.com.svg"  alt="Logo-afa"></a> </li>
+                <li> <a class="custom-btn btn-1" href="./alta.html">Alta</a> </li>
+                <li> <a class="custom-btn btn-1" href="./nosotros.html">Nosotros</a> </li>
+                <li> <a class="custom-btn btn-1" href="./carrito.html">Tienda</a> </li>
+                <li> <a class="custom-btn btn-1" href="./contacto.html">Contacto</a> </li>
+            </ul>
+            
+            <div id="barra-busqueda">
+                <form action="#">
+                    <label>
+                    <input type="text">
+                    <input type="submit" value="Buscar">
+                </label>
+                </form>
+            </div>
+            <div id="boton-carrito"><a  href="./carrito.html"> <img class="carrito" src="./imagenes/carrito-icon.svg"  alt="carrito"></a></div>
+            <div class="botones-logos">
+                <a href="#"><img class="redes" src="./imagenes/Logos/3225191_app_instagram_logo_media_popular_icon.svg" alt="instagram"></a>
+                <a href="#"><img class="redes" src="./imagenes/Logos/11053970_x_logo_twitter_new_brand_icon.svg" alt="X"> </a>
+                <a href="#"><img class="redes" src="./imagenes/Logos/3225194_app_facebook_logo_media_popular_icon.svg" alt="Facebook"></a>
+                <a href="#"><img class="redes" src="./imagenes/Logos/3225179_app_logo_media_popular_social_icon.svg" alt="Whatsapp"> </a>
+            </div>
+        </nav>
+        
+
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <div class="contenedor">
+        <div class="contenedor-formulario">
+            <form action="Formulario" class="form " id="SecContact">
+            
+
+                <div class="contenedor-input ">
+                  <input type="text" class="input" placeholder="a">
+                  <label for="nombre" class="label">Nombre</label>
+                </div>
+
+                <div class="contenedor-input">
+                  <input type="text" class="input" placeholder="a">
+                  <label for="mail" class="label">Mail</label>
+                </div>
+
+                <div class="contenedor-input">
+                  <input type="number" class="input" placeholder="a" required>
+                  <label for="celular" class="label">Celular</label> 
+                </div>
+
+                <div class="contenedor-input">
+                  <input type="text" class="input" placeholder="a">
+                  <label for="localidad" class="label">Localidad</label>
+                </div>
+
+                <div class="contenedor-texto">
+                <textarea name="Texto" id="textarea" cols="50" rows="10"> </textarea>
+                </div>
+                <input type="submit" class="submitBtn" value="Confirmar">
+            </form>
+
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <h3>Copyright 2023</h3>
+        
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7657.684293390337!2d-58.869843143604236!3d-34.44806244735096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c5713587819%3A0x39ea2834d34ffd98!2sLas%20Palmas%20del%20Pilar!5e0!3m2!1ses-419!2sar!4v1695581510755!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <div class="div-footer">
+            <a class="logos-footer" href="#mapa">Ubicacion</a>
+            <a class="logos-footer" href="./contacto.html">Contacto</a>
+            <a class="logos-footer" href="#">Novedades</a>
+            <div class="botones-logos-footer">
+                <a class="enlaces-footer" href="#"><img class="redes" src="./imagenes/Logos/3225191_app_instagram_logo_media_popular_icon.svg" alt="instagram"></a>
+                <a class="enlaces-footer" href="#"><img class="redes" src="./imagenes/Logos/11053970_x_logo_twitter_new_brand_icon.svg" alt="X"> </a>
+                <a class="enlaces-footer" href="#"><img class="redes" src="./imagenes/Logos/3225194_app_facebook_logo_media_popular_icon.svg" alt="Facebook"></a>
+                <a class="enlaces-footer" href="#"><img class="redes" src="./imagenes/Logos/3225179_app_logo_media_popular_social_icon.svg" alt="Whatsapp"> </a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="js/contacto.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

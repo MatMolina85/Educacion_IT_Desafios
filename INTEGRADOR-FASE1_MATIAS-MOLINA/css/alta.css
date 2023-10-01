@@ -1,0 +1,182 @@
+main {
+    height:auto;
+    text-align: center;
+    background-color:rgb(88, 214, 141 );
+    padding-top: 22vh;
+    padding-bottom:10vh ;
+    width:auto;
+    box-sizing: content-box;
+
+}
+
+main h1 {
+    text-align: center;
+    font-family:'Chococookies', sans-serif;
+    font-size: 7vw;
+    background-image: radial-gradient(circle at 28.58% 75.53%, #00a1f4 0, #009efa 3.33%, #009afe 6.67%, #0096ff 10%, #0091ff 13.33%, #448bfd 16.67%, #6d85f8 20%, #8a7ff1 23.33%, #a278e8 26.67%, #b670de 30%, #c669d2 33.33%, #d462c5 36.67%, #df5cb6 40%, #e858a8 43.33%, #ee5498 46.67%, #f25389 50%, #f4547a 53.33%, #f3576b 56.67%, #f05b5c 60%, #ec614e 63.33%, #e66741 66.67%, #de6e34 70%, #d57427 73.33%, #cb7b1a 76.67%, #c0810b 80%, #b38700 83.33%, #a68c00 86.67%, #989100 90%, #899502 93.33%, #799913 96.67%, #689c22 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.alta-form {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 50% 50%, #00adf6 0, #00aaff 4.17%, #00a7ff 8.33%, #00a4ff 12.5%, #00a0ff 16.67%, #009bff 20.83%, #2896ff 25%, #6290ff 29.17%, #8489ff 33.33%, #9f82fa 37.5%, #b57bf0 41.67%, #c873e5 45.83%, #d86cd8 50%, #e565ca 54.17%, #f05fbb 58.33%, #f75bac 62.5%, #fd589c 66.67%, #ff578c 70.83%, #ff597d 75%, #ff5c6d 79.17%, #fd615f 83.33%, #f86750 87.5%, #f26d43 91.67%, #ea7435 95.83%, #e07b28 100%);
+    width: 50%;
+    margin: 20px auto;
+    padding: 30px;
+    color: white;
+    border-radius: 15% 15%;
+    box-shadow: -2px 5px 5px 5px rgba(0, 0, 255, 0.3);
+
+}
+
+.input-group {
+    /* border: 1px solid magenta; */
+    text-align: center;
+    padding: 3px;
+}
+
+main label {
+    font-size:4vh;
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Chocolate-box', sans-serif;
+}
+
+main label[for="envio"] {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+main button {
+    /* text-align: center; */
+    display: block;
+    margin: 15px auto;
+
+    height: 40px;
+    width: 50%;
+    background-color: #689;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Chocolate-box', sans-serif;
+}
+
+main input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#95afc0;
+    box-shadow: 4px -3px 3px 2px lightslategray;
+}
+
+main input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    /* margin: 5px auto; */
+    width: 60%;
+     z-index: 1;
+    position: relative; 
+    margin: 20px auto;
+    
+}
+
+th,td {
+    width: 10px;
+    height: 3% ;
+    padding: 5px;
+    color: white;
+    font-family: 'Chocolate-box', sans-serif;
+    font-size:1vw;
+    border: 4px solid blueviolet;
+}
+
+th {
+    text-transform: uppercase;
+    color: white;
+    background-color: #111;
+    /* border: 10px solid red; */
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Chocolate-box', sans-serif;
+    font-size: 3vw;
+    padding: 10px;
+    background-image: radial-gradient(circle at 28.58% 75.53%, #00a1f4 0, #009efa 3.33%, #009afe 6.67%, #0096ff 10%, #0091ff 13.33%, #448bfd 16.67%, #6d85f8 20%, #8a7ff1 23.33%, #a278e8 26.67%, #b670de 30%, #c669d2 33.33%, #d462c5 36.67%, #df5cb6 40%, #e858a8 43.33%, #ee5498 46.67%, #f25389 50%, #f4547a 53.33%, #f3576b 56.67%, #f05b5c 60%, #ec614e 63.33%, #e66741 66.67%, #de6e34 70%, #d57427 73.33%, #cb7b1a 76.67%, #c0810b 80%, #b38700 83.33%, #a68c00 86.67%, #989100 90%, #899502 93.33%, #799913 96.67%, #689c22 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+tbody{ 
+    width: 80%;
+    margin: 5px auto;
+    justify-content: center;
+    padding: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+hr { 
+    background-image: radial-gradient(circle at 28.58% 75.53%, #00a1f4 0, #009efa 3.33%, #009afe 6.67%, #0096ff 10%, #0091ff 13.33%, #448bfd 16.67%, #6d85f8 20%, #8a7ff1 23.33%, #a278e8 26.67%, #b670de 30%, #c669d2 33.33%, #d462c5 36.67%, #df5cb6 40%, #e858a8 43.33%, #ee5498 46.67%, #f25389 50%, #f4547a 53.33%, #f3576b 56.67%, #f05b5c 60%, #ec614e 63.33%, #e66741 66.67%, #de6e34 70%, #d57427 73.33%, #cb7b1a 76.67%, #c0810b 80%, #b38700 83.33%, #a68c00 86.67%, #989100 90%, #899502 93.33%, #799913 96.67%, #689c22 100%);
+    border: 10px solid radial-gradient(circle at 28.58% 75.53%, #00a1f4 0, #009efa 3.33%, #009afe 6.67%, #0096ff 10%, #0091ff 13.33%, #448bfd 16.67%, #6d85f8 20%, #8a7ff1 23.33%, #a278e8 26.67%, #b670de 30%, #c669d2 33.33%, #d462c5 36.67%, #df5cb6 40%, #e858a8 43.33%, #ee5498 46.67%, #f25389 50%, #f4547a 53.33%, #f3576b 56.67%, #f05b5c 60%, #ec614e 63.33%, #e66741 66.67%, #de6e34 70%, #d57427 73.33%, #cb7b1a 76.67%, #c0810b 80%, #b38700 83.33%, #a68c00 86.67%, #989100 90%, #899502 93.33%, #799913 96.67%, #689c22 100%);
+    ;
+    margin: 8vh 0px ;
+}
+
+@media screen and (max-width: 768px) {
+    tbody{ 
+        width: 80%;
+        margin: 5px auto;
+        /* padding: 5px; */
+        background-color: red;
+        border-radius: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        margin: 5px auto;
+        padding: 5px;
+        width: 20%;
+        z-index: 1;
+        /* position: relative; */
+        margin: 20px auto;
+        border: 2px solid black;
+
+        
+    }
+
+    main{ 
+        padding-top: 200px;
+    }
+    
+    
+}
+@media screen and (max-width: 375px){
+
+    main button {
+        /* text-align: center; */
+        display: block;
+        margin: 15px auto;
+    
+        height: 40px;
+        width: 50%;
+        background-color: #689;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Chocolate-box', sans-serif;
+        font-size:1.3vh;
+    }
+    main label {
+        font-size:2vh;
+        color: white;
+        text-transform: capitalize;
+        display: block;
+        margin-bottom: 5px;
+        font-family: 'Chocolate-box', sans-serif;
+    }
+}

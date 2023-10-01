@@ -1,0 +1,179 @@
+.carousel {
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+}
+#imagen {
+    position: relative;
+        text-align: center;
+        width: 95%;
+        height:auto;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-image: url(../imagenes/macarrones_h.jpg);
+        z-index: 1;
+}
+
+
+#retroceder ,#avanzar { 
+    background-color: transparent;
+    position: relative;
+    width: 5%;
+    font-size: 5vw;
+    border: none;   
+    z-index: 2;
+}
+
+#retroceder { 
+    left: 4.5%; 
+}
+#avanzar {  
+    right: 4.5%;
+}
+
+.frase { 
+    position: absolute;
+    font-size: 5vw;
+    bottom: 3%;
+    left:35%;
+    color: rgb(52, 152, 219);
+    font-family: 'Emilys Candy', cursive;
+    
+}
+.frase1{ 
+    position: relative;
+    top: 80%;
+    left: 0;
+
+    animation: frase1 5s cubic-bezier( 0,0.400, 0.450, 0.940) infinite;
+}
+
+
+
+  @keyframes frase1 {
+    0% {
+      letter-spacing: 1em;
+              transform: translateZ(102vw);
+              filter: blur(10px);
+      opacity: 0;
+    }
+    100% {
+              transform: translateZ(0px);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+.card-container { 
+  display: flex;
+  /* border: 1px solid red; */
+  height:45%;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+}
+
+
+.card{ 
+  width: 100vw;
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 5px -4px 6px 5px rgba(50, 50, 50, 0.7);
+  border-radius: 15px;
+  background-color: rgba(52, 152,219, 0.5);
+  border: 2px solid rgba(52, 152,219, 0.5);
+  /* padding: 10px 15px; */
+
+}
+
+
+.foto-card { 
+  width: 18vw;
+  height: 25vw;
+  margin: 0 auto;
+  margin-top: 15px;
+  box-shadow: 1px 4px 4px rgba(0,0, 0, 0.5);
+  border-radius: 5%;
+  padding: 4px;
+}
+
+
+.parrafo-card{ 
+  font-size: 2vw;
+  margin-top: 5px;
+  font-family: 'Emilys Candy', cursive;
+  color:white
+ 
+}
+
+.card:hover {
+  width: 100vw;
+
+  background-image: radial-gradient(circle at 62.28% -19.64%, #ffd48e 0, #fed78c 3.33%, #f4db8b 6.67%, #e9de8d 10%, #dee28f 13.33%, #d2e593 16.67%, #c6e799 20%, #baeaa0 23.33%, #adeca8 26.67%, #a0eeb1 30%, #93efbb 33.33%, #85f1c6 36.67%, #78f1d1 40%, #6bf2dc 43.33%, #5ef2e7 46.67%, #53f2f2 50%, #4bf1fc 53.33%, #47f1ff 56.67%, #4aefff 60%, #52eeff 63.33%, #5fecff 66.67%, #6eeaff 70%, #7fe7ff 73.33%, #90e4ff 76.67%, #a1e1ff 80%, #b3ddff 83.33%, #c3d9ff 86.67%, #d3d5ff 90%, #e3d2ff 93.33%, #f0ceff 96.67%, #fdcaff 100%);
+  animation: vibracion 0.3s infinite linear;
+}
+
+@keyframes vibracion {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(5px, -5px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container { 
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height:45%;
+    width: 40%;
+    /* justify-content: start; */
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+    
+  }
+  .card{ 
+    width: 50vw;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 5px -4px 6px 5px rgba(50, 50, 50, 0.7);
+    border-radius: 15px;
+    background-color: rgba(52, 152,219, 0.5);
+    border: 2px solid rgba(52, 152,219, 0.5);
+    
+  }
+
+  .card:hover {
+    width: 50vw;
+  }  
+  
+  main { 
+    height: auto;
+  }
+
+  .carousel {
+    width: 90%;
+    height: 50vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@font-face {
+    font-family: 'Candyshop';
+    src:url('../fonts/Candyshop.otf') ,url('../fonts/Candyshop.ttf');
+}
+@font-face {
+    font-family: 'Chocolate-box';
+    src: url('../fonts/C_BOX.TTF'), url('../fonts/C_BOX_D.TTF');
+}
+@font-face {
+    font-family: 'Chococookies';
+    src: url('../fonts/Chocolate\ Cookies.ttf');
+}
+@font-face {
+    font-family: "ChocolateDelight";
+    src: url('../fonts/Chocolate\ and\ Delight.ttf');
+
+}
+
+body {
+    margin: 0;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    
+}
+main {
+    height:180vh;
+    text-align: center;
+    padding-top: 22vh;
+    width: 100vw;
+    /* background-image: url(../imagenes/choco_templado.jpg) ;
+    background-size: cover; */
+    background-color: pink;
+}
+
