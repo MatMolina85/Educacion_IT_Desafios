@@ -24,6 +24,7 @@ const dolarOficial = (url, method) => {
             respuesta = JSON.parse(xhr.response);
             cotizacion = respuesta[1].casa.venta;
             dolar.value = parseFloat(cotizacion).toFixed(2);
+            // console.log(parseFloat(cotizacion).toFixed(2))
         }
     })
     xhr.send()
@@ -54,9 +55,7 @@ const actualizar = () => {
 pesos.addEventListener('input', conversorDolar)
 dolar.addEventListener('input', conversorDolar)
     
-actualizacion.addEventListener('change', () => {
-    actualizar()
-})
+
 
 actualizar ()
 dolarOficial(url, 'get')
