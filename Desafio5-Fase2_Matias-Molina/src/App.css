@@ -1,0 +1,24 @@
+.contenedor1 { 
+    color: red;
+    text-align: center;
+    box-shadow: 2px 3px 2px black;
+}
+
+.App { 
+    background-color:gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.contenedor2 { 
+    padding: 20px;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 40px;    
+    border-radius: 10px;
+}
