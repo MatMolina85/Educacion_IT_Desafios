@@ -1,0 +1,177 @@
+.contacto { 
+    height: auto;
+    text-align: center;
+    padding-top: 22vh;
+    width: 100vw;
+    background-image: url(../imagenes/Fondos/fondo\ contacto.png) ;
+    background-size: cover;
+  }
+  
+  .contenedor { 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .contacto h1{ 
+    font-family: 'Chococookies' ,sans-serif;
+    font-size: 7vw;
+    font-style: italic;
+    color: #0098B9;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contenedor-formulario {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      box-sizing: border-box;
+      width: 95%;
+  }
+  
+  
+    .form {
+      background-image: linear-gradient(170deg, #00998a 0, #009999 3.33%, #0099a8 6.67%, #0098b5 10%, #0097c2 13.33%, #0096ce 16.67%, #0094d8 20%, #0092e0 23.33%, #0090e6 26.67%, #008cea 30%, #0088ed 33.33%, #0084ed 36.67%, #277feb 40%, #5979e6 43.33%, #7773e0 46.67%, #8f6cd8 50%, #a365ce 53.33%, #b35ec3 56.67%, #c157b7 60%, #cc51a9 63.33%, #d44c9b 66.67%, #db488d 70%, #de467e 73.33%, #e0476f 76.67%, #e04961 80%, #de4e53 83.33%, #da5346 86.67%, #d45939 90%, #cd602c 93.33%, #c5661f 96.67%, #bb6d10 100%);
+      width: 95%;
+      border-radius: 8px;
+      padding: 20px 40px;
+      box-shadow: 0 10px 25px rgba(92, 99, 105, .3);
+      text-align: center;
+    }
+
+    .informacion { 
+      width: 100%;
+      background-image: linear-gradient(170deg, #00998a 0, #009999 3.33%, #0099a8 6.67%, #0098b5 10%, #0097c2 13.33%, #0096ce 16.67%, #0094d8 20%, #0092e0 23.33%, #0090e6 26.67%, #008cea 30%, #0088ed 33.33%, #0084ed 36.67%, #277feb 40%, #5979e6 43.33%, #7773e0 46.67%, #8f6cd8 50%, #a365ce 53.33%, #b35ec3 56.67%, #c157b7 60%, #cc51a9 63.33%, #d44c9b 66.67%, #db488d 70%, #de467e 73.33%, #e0476f 76.67%, #e04961 80%, #de4e53 83.33%, #da5346 86.67%, #d45939 90%, #cd602c 93.33%, #c5661f 96.67%, #bb6d10 100%);
+      border-radius: 8px;
+      padding: 20px 40px;
+      text-align: center;
+
+    }
+
+    .detalle { 
+      background-color: #fff;
+      height: auto;
+      width: 100%;
+    }
+
+    .detalle img {
+      width:100%;
+      height: 22vw;
+    }
+    
+    .texto-info { 
+      height: auto;
+      margin-top: 2vw;
+      font-size: 1.1vw;
+    }
+    
+  
+  
+    .contenedor-input {
+      margin: auto;
+      position: relative;
+      height: 45px;
+      width: 90%;
+      margin-bottom: 17px;
+      font-family: 'Chocolate-box', sans-serif;
+  }
+    
+    .input {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      border: 1px solid #DADCE0;
+      border-radius: 7px;
+      font-size: 16px;
+      padding: 0 20px;
+      outline: none;
+      background: none;
+      z-index: 1;
+      font-family: 'Chocolate-box', sans-serif;
+      color: white;
+      font-weight: bold;
+    }
+  
+  
+  
+    ::placeholder {
+      color: transparent;
+    }
+    .label {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      padding: 0 4px;
+      background-color: transparent;
+      color: #DADCE0;
+      font-size: 16px;
+      transition: 0.5s;
+      z-index: 0;
+    }
+    .submitBtn {
+      display: block;
+      margin-left: auto;
+      padding: 15px 30px;
+      border: 1px solid lightskyblue;
+      background-color: purple;
+      color: white;
+      font-weight: bolder;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1vw;
+      margin-top: 30px;
+      font-family: 'Chocolate-box', sans-serif;
+      font-style: italic;
+    }
+    .disabled { 
+      background-color: red;
+    }
+  
+    .submitBtn:hover {
+      background-color: #9867C5;
+      transform: translateY(-2px);
+    }
+    .input:focus + .label {
+      top: -14px;
+      left: 3px;
+      z-index: 10;
+      font-size: 14px;
+      font-weight: 600;
+      color: black ;
+    }
+    .input:focus {
+      border: 2px solid purple;
+    }
+    .input:not(:placeholder-shown)+ .label {
+      top: -7px;
+      left: 3px;
+      z-index: 10;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+  
+   .contenedor-texto{ 
+    display: flex;
+    justify-content:center;
+   } 
+  
+  .contenedor-texto textarea{ 
+      border-radius: 8px;
+      position: relative;
+      width: 80%;
+      height: 80%;
+      font-family: 'Chocolate-box', sans-serif;
+      padding: 5px;
+      resize: none;
+  }
+  textarea:focus {
+    border: 5px solid purple;
+  }
+
+  @media (max-width: 768px) {
+    .contacto h1{ 
+      margin-top: 200px;
+    }
+    
+  }

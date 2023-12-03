@@ -1,0 +1,86 @@
+.Tabla{
+    border-width: 2px;
+    width: 90%;
+    z-index: 1;
+    margin: 20px auto;
+    
+
+}
+.Tabla .table th {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    
+}
+.table { 
+    vertical-align:middle;
+}
+
+
+.Tabla .mi-boton-editar {
+    width: 8vw;
+    background-color: #ffc107; 
+    color: #212529; 
+    border: 1px solid #ffc107; 
+    cursor: pointer;
+    margin-bottom: 10px; 
+    font-size: 1vw;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Tabla  .mi-boton-editar:hover {
+    background-color: #e0a800; 
+}
+
+
+.Tabla  .mi-boton-borrar {
+    width: 8vw;
+    background-color: #dc3545; 
+    color: #fff; 
+    border: 1px solid #dc3545; 
+    cursor: pointer;
+    margin-bottom: 10px; 
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Tabla  .mi-boton-borrar:disabled {
+    background-color: #ccc; 
+    border-color: #ccc; 
+    color: #666; 
+    cursor: not-allowed; 
+}
+
+
+.Tabla .table th,.Tabla .table td {
+    width: 1vw;
+    padding: 5px;
+    font-family: 'Chocolate-box', sans-serif;
+    font-size:1vw;
+    color: black;
+    background-color: rgba(0,0,0,0);
+    font-weight: bolder;
+    vertical-align: middle;
+} 
+
+.Tabla .sinProductos{ 
+    color: black;
+    background-color: pink;
+    padding: 20px;
+    font-family: 'Chocolate-box', sans-serif;
+    font-size: 2vw;
+}
+
+@media (max-width:768px) {
+    .Tabla .mi-boton-borrar,  .Tabla .mi-boton-editar {
+        width: 20px;
+        height: 20px;
+        font-size: 4px;
+    
+}
+    .Tabla .table th,.Tabla .table td { 
+        padding: 10px;
+    }
+    }
+

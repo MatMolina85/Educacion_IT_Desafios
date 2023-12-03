@@ -1,0 +1,70 @@
+.TablaCarrito .carro th {
+    text-transform: uppercase;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.TablaCarrito{
+    border-width: 2px;
+    width: 90%;
+    z-index: 1;
+    position: relative; 
+    margin:auto;
+    
+
+}
+
+.carro { 
+    background-color:rgba(1, 128, 163, 0.7);
+    width: 100%;
+}
+
+
+.TablaCarrito th,.TablaCarrito td {
+    width:1vw;
+    padding: 2px;
+    font-family: 'Chocolate-box', sans-serif;
+    font-size:1vw;
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+    color: white;
+    font-weight: bolder;
+} 
+
+.botonesVar { 
+    width: 3vw;
+    height: 2vw;
+    margin: 0 1vw;
+    border-radius: 50%;
+    font-weight: bolder;
+    background-color: #AB3272;
+    color: white;
+}
+
+.botonBorrar{ 
+    width: 8vw;
+    background-color: #dc3545; 
+    color: #fff; 
+    border: 1px solid #dc3545; 
+    cursor: pointer;
+    margin-bottom: 10px; 
+    border-radius: 20px;
+    align-items: center;
+}
+
+.sumaResta { 
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sumaParcial { 
+    width: 60%;
+    height: 3vw;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 8px;
+
+
+}

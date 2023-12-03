@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@font-face {
+    font-family: 'Candyshop';
+    src:url('/src/fonts/Candyshop.otf') ,url('/src/fonts/Candyshop.ttf');
+}
+@font-face {
+    font-family: 'Chocolate-box';
+    src: url('/src/fonts/C_BOX.TTF'), url('/src/fonts/C_BOX_D.TTF');
+}
+@font-face {
+    font-family: 'Chococookies';
+    src: url('/src/fonts/Chocolate\ Cookies.ttf');
+}
+@font-face {
+    font-family: "ChocolateDelight";
+    src: url('/src/fonts/Chocolate\ and\ Delight.ttf');
+
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+
+    width: 100%;
+    height: 7rem;
+    display: grid;
+    position: fixed;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,137,0.7) 100%);
+    box-shadow: 1px 5px 5px whitesmoke;
+    z-index: 2;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-principal{ 
+    width: 6rem;
+    height: 6rem;
+    background-color: transparent;  
+    
+}
+
+#logo{ 
+    width:100%;
+    height: 100%;
+    background-color: transparent;
+} 
+
+.logo-principal:hover { 
+    transform: rotateZ(-360deg);
+    transition: 4000ms;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    width: 70%;
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    flex-direction: row;
+}
+
+
+
+header nav ul li a {
+text-decoration: none; 
+width: 9rem;
+height: 3rem;
+display: block;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,137,0.7) 100%);
+color: white;
+text-align: center;
+line-height: 3em;
+border-radius: 100px;
+cursor: pointer;
+transition: all 0.3s ease;
+position: relative;
+display: inline-block;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+outline: none;
+font-family: 'Chocolate-box', sans-serif;
+}
+
+.btn-1 {
+    width: 9rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0;
+    border: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,137,0.7) 100%);
+  }
+
+  .btn-1:hover {
+    color: rgba(34,193,195,1);
+    background: transparent;
+    box-shadow:none;
+    
+  }
+
+  .btn-1:before, .btn-1:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background:rgba(253,45,137,0.7);
+    box-shadow:
+    -1px -1px 5px 0px #fff,
+    7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+}
+
+.btn-1:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+
+.btn-1:hover:before, .btn-1:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  
+
+header > div {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+#barras-busqueda {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,137,0.7) 100%);
+    width: 30%;
+    height: 3.5vw;
+    text-align: start;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10rem/40rem  ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+#barras-busqueda form label {
+  background: transparent;
+  width:9vw;
+  /* margin-right: 2vw; */
+  /* flex: 30%; */
+  margin-right: 6vw;
+  padding: 2px;
+}
+
+#barras-busqueda form input {
+  background-color: lightskyblue;
+  padding: 4px;
+  flex: 70%;
+  color: purple;
+  font-size: 1vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  border-radius: 10%;
+  font-family: 'Chocolate-box', sans-serif;
+}
+
+#barras-busqueda form input[type="submit"] {
+  background-color:#2F4F4F; 
+  padding: 4px;
+  color: white;
+  margin-left: 1vw;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+#boton-carrito {
+    background-color: transparent;
+    width: 4rem;
+    margin-right: 3rem;
+    border-radius: 50%;
+}
+.carrito-compra:hover { 
+    width: 3rem;
+    background-color: lightblue;
+    border-radius: 50%;
+    
+}
+
+
+
+ul, h1, h3, p {
+    margin: 0;
+}
+
+
+
+@media (max-width: 1400px) {
+    header nav ul li a {
+      width: 8rem;
+     
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    header nav ul li a {
+      width: 7rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    header nav ul {
+      flex-direction: row;
+      justify-content: end;
+      /* border: 1px solid red; */
+      position: relative;
+      left: 4vw;
+    }
+  
+    header nav ul li a {
+      width: 9rem;
+      margin-bottom: 10px;
+      justify-content: start;
+     
+    }
+
+    #barras-busqueda { 
+        display: none;
+    }
+    #boton-carrito { 
+        text-align: center;
+        /* border: 1px solid red; */
+        position: absolute;
+        right: -5vw;
+    }
+
+    #logo-principal {
+        width: 5rem;
+        height: 5rem;
+        position: relative;
+        left: -5vw;
+  }
+}
+  
+  @media (max-width: 768px) {
+    main { 
+       padding-top: 45vh;
+       /* padding-bottom: 10vh; */
+
+    }
+
+    header {
+      height: auto;
+      padding: 10px;
+    }
+  
+    header nav ul {
+      width: 100%;
+      justify-content: space-evenly;
+      flex-direction: column;
+      /* border: 1px solid red; */
+      position: relative;
+      left: 10vw;
+      margin: 0 auto;
+      }
+
+      header nav ul li{
+        /* width: 9rem; */
+        /* margin-bottom: 10px; */
+        display: flex;
+        align-items:stretch;
+       
+      }
+    
+      .btn-1 {
+        width: 9rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+ 
+    #logo-principal {
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      right:  -2vw;
+      top: 2rem;
+      /* border: 1px solid red; */
+    } 
+  
+    #barra-busqueda {
+      width: 50%;
+      margin-right: 0;
+    }
+  
+    #boton-carrito {
+      margin-right: 1rem;
+      position: relative;
+      left: 2vw;
+    }
+  
+    .botones-logos {
+      display: none;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+  #logo-principal {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right:  -2vw;
+    top: 3.5rem;
+    /* border: 1px solid red; */
+  }
+  
+}
